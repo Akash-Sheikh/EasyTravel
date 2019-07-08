@@ -61,8 +61,8 @@
          <div class="logo">Easy Travel</div>
          <nav>
              <ul>
-                 <li><a href="AdminHome.html" class="active">Home</a></li>
-                 <li><a href="AddManager.html">Add Manager</a></li>
+                 <li><a href="AdminHome.php" class="active">Home</a></li>
+                 <li><a href="AddManager.php">Add Manager</a></li>
                  <li><a href="#">Edit Manager</a></li>
                  <li><a href="#">Delete Manager</a></li>
              </ul>
