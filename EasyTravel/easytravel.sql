@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 06, 2019 at 08:30 PM
+-- Generation Time: Jul 09, 2019 at 03:50 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.40
 
@@ -43,11 +43,7 @@ CREATE TABLE `manager_info` (
 --
 
 INSERT INTO `manager_info` (`id`, `user_name`, `address`, `phone_number`, `age`, `email`, `password`) VALUES
-(1, 'Sky', 'rsr', 'resr', '10', 'sers@gmail.com', 'yryd'),
-(2, 'Sky', 'rsr', 'resr', '10', 'sers@gmail.com', 'trurt'),
-(3, 'ruirt', 'rtujrt', 'rtjrtj', 'rtjtr', 'sers@gmail.com', 'rtj'),
-(4, 'fgfnmbcg', 'fgjmf', 'fgjf', 'fgj', 'sers@gmail.com', 'fgjfg'),
-(5, 'Sky', 'rsr', 'resr', '10', 'sers@gmail.com', 'hjo');
+(12, 'SkyFar', 'Rajbari', '01731610244', '22', 'akashahmed628@gmail.com', '1234');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +63,7 @@ ALTER TABLE `manager_info`
 -- AUTO_INCREMENT for table `manager_info`
 --
 ALTER TABLE `manager_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

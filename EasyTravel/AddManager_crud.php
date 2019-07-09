@@ -16,7 +16,7 @@
 		$result = $crud->execute("INSERT into manager_info(user_name,address,phone_number,age,email,password) VALUES('$User_name','$Address','$Phone_number','$Age','$Email','$Password')");
 		
 		if($result){
-			header("location:AddManager.php?status=success");
+			header("location:AddManagerpage.php?status=success");
 		}else{
 			echo "Insertion Problem!";
 		}
